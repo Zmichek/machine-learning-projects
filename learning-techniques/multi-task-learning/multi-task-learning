@@ -1,0 +1,19 @@
+Multi-task learning is a type of supervised learning that involves fitting
+a model on one dataset that addresses multiple related problems.
+
+It involves devising a model that can be trained on multiple related tasks
+in such a way that the performance of the model is improved by training
+across the tasks as compared to being trained on any single task.
+
+Multi-task learning is a way to improve generalization by pooling the
+examples (which can be seen as soft constraints imposed on the parameters)
+arising out of several tasks.
+
+Multi-task learning can be a useful approach to problem-solving when
+there is an abundance of input data labeled for one task that can be
+shared with another task with much less labeled data.
+
+... we may want to learn multiple related models at the same time,
+which is known as multi-task learning. This will allow us to “borrow
+statistical strength” from tasks with lots of data and to share it
+with tasks with little data.

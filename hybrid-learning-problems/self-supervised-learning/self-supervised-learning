@@ -1,0 +1,7 @@
+Self-supervised learning refers to an unsupervised learning problem
+that is framed as a supervised learning problem in order to apply
+supervised learning algorithms to solve it.
+
+Supervised learning algorithms are used to solve an alternate or pretext
+task, the result of which is a model or representation that can be used
+in the solution of the original (actual) modeling problem.

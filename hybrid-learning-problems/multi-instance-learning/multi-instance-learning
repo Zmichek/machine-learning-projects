@@ -1,0 +1,13 @@
+Multi-instance learning is a supervised learning problem where individual
+examples are unlabeled; instead, bags or groups of samples are labeled.
+
+In multi-instance learning, an entire collection of examples is labeled
+as containing or not containing an example of a class, but the individual
+members of the collection are not labeled.
+
+Instances are in "bags" rather than sets because a given instance may be
+present one or more times, e.g. duplicates.
+
+Modeling involves using knowledge that one or some of the instances in a
+bag are associated with a target label, and to predict the label for new
+bags in the future given their composition of multiple unlabeled examples.

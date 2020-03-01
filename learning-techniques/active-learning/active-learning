@@ -1,0 +1,37 @@
+Active learning is a technique where the model is able to query a human user
+operator during the learning process in order to resolve ambiguity during
+the learning process.
+
+Active learning: The learner adaptively or interactively collects training
+examples, typically by querying an oracle to request labels for new points.
+
+Active learning is a type of supervised learning and seeks to achieve the
+same or better performance of so-called “passive” supervised learning,
+although by being more efficient about what data is collected
+or used by the model.
+
+The key idea behind active learning is that a machine learning algorithm
+can achieve greater accuracy with fewer training labels if it is allowed
+to choose the data from which it learns. An active learner may pose
+queries, usually in the form of unlabeled data instances to be labeled
+by an oracle (e.g. human annotator).
+
+It is not unreasonable to view active learning as an approach to solving
+semi-supervised learning problems, or an alternative paradigm for the
+same types of problems.
+
+… we see that active learning and semi-supervised learning attack the same
+problem from opposite directions. While semi-supervised methods exploit
+what the learner thinks it knows about the unlabeled data, active methods
+attempt to explore the unknown aspects. It is therefore natural to think
+about combining the two.
+
+Active learning is a useful approach when there is not much data available
+and new data is expensive to collect or label.
+
+The active learning process allows the sampling of the domain to be
+directed in a way that minimizes the number of samples and maximizes
+the effectiveness of the model.
+
+Active learning is often used in applications where labels are expensive
+to obtain, for example computational biology applications.

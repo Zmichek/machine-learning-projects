@@ -1,0 +1,18 @@
+Online learning involves using the data available and updating the model
+directly before a prediction is required or after the last observation
+was made.
+
+Online learning is appropriate for those problems where observations are
+provided over time and where the probability distribution of observations
+is expected to also change over time. Therefore, the model is expected to
+change just as frequently in order to capture and harness those changes.
+
+Traditionally machine learning is performed offline, which means we have
+a batch of data, and we optimize an equation […] However, if we have
+streaming data, we need to perform online learning, so we can update
+our estimates as each new data point arrives rather than waiting until
+“the end” (which may never occur).
+
+This approach is also used by algorithms where there may be more
+observations than can reasonably fit into memory, therefore, learning
+is performed incrementally over observations, such as a stream of data.

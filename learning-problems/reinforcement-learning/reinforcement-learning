@@ -1,0 +1,29 @@
+Reinforcement learning describes a class of problems where an agent operates
+in an environment and must learn to operate using feedback.
+
+Reinforcement learning is learning what to do - how to map situations to
+actions - so as to maximize a numerical reward signal. The learner is not
+told which actions to take, but instead must discover which actions yield
+the most reward by trying them.
+
+The use of an environment means that there is no fixed training data set,
+rather a goal or set of goals that an agent is required to achieve, actions
+they may perform, and feedback about performance toward the goal.
+
+Some ML algorithms do not just experience a fixed data set. For example,
+reinforcement learning algorithms interact with an environment, so there
+is a feedback loop between the learning system and its experiences.
+
+RL is similar to supervised learning in that the model has some response
+from which to learn, although the feedback may be delayed and statistically
+noisy, making it challenging for the agent or model to connect cause and effect.
+
+
+In many complex domains, reinforcement learning is the only feasible way to
+train a program to perform at high levels. For example, in game playing, it
+is very hard for a human to provide accurate and consistent evaluations of
+large numbers of positions, which would be needed to train an evaluation
+function directly from examples. Instead, the program can be told when it
+has won or lost, and it can use this information to learn an evaluation
+function that gives reasonably accurate estimates of the probability of
+winning from any given position.

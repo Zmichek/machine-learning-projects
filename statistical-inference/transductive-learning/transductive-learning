@@ -1,0 +1,16 @@
+Transduction or transductive learning is used in the field of statistical
+learning theory to refer to predicting specific examples given specific
+examples from a domain.
+
+It is different from induction that involves learning general rules from
+specific examples, e.g. specific to specific.
+
+Unlike induction, no generalization is required; instead, specific examples
+are used directly. This may, in fact, be a simpler problem than induction
+to solve.
+
+The model of estimating the value of a function at a given point of
+interest describes a new concept of inference: moving from the particular
+to the particular. We call this type of inference transductive inference.
+Note that this concept of inference appears when one would like to get the
+best result from a restricted amount of information.

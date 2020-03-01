@@ -1,0 +1,19 @@
+Inductive learning involves using evidence to determine the outcome.
+
+Inductive reasoning refers to using specific cases to determine general
+outcomes, e.g. specific to general.
+
+Most ML models learn using a type of inductive inference or inductive
+reasoning where general rules (the model) are learned from specific
+historical examples (the data).
+
+Fitting a machine learning model is a process of induction. The model
+is a generalization of the specific examples in the training dataset.
+
+A model or hypothesis is made about the problem using the training data,
+and it is believed to hold over new unseen data later when the model is
+used.
+
+Lacking any further information, our assumption is that the best hypothesis
+regarding unseen instances is the hypothesis that best fits the observed
+training data. This is the fundamental assumption of inductive learning.

@@ -1,0 +1,29 @@
+Semi-supervised learning is supervised learning where the training data
+contains very few labeled examples and a large number of unlabeled examples.
+
+The goal of a semi-supervised learning model is to make effective use of all
+of the available data, not just the labeled data like in supervised learning.
+
+In semi-supervised learning we are given a few labeled examples and must make
+what we can of a large collection of unlabeled examples. Even the labels
+themselves may not be the oracular truths that we hope for.
+
+Making the effective use of unlabeled data may require the use of or
+inspiration from unsupervised methods such as clustering and density
+estimation. Once groups or patterns are discovered, supervised methods
+or ideas from supervised learning may be used to label the unlabeled
+examples or apply labels to unlabeled representations later used for
+predictions.
+
+Unsupervised learning can provide useful cues for how to group examples
+in representation space. Examples that cluster tightly in the input space
+should be mapped to similar representations.
+
+It is common for many real-world supervised learning problems to be examples
+of semi-supervised learning problems given the expense or computational cost
+for labeling examples. For example, classifying photographs requires a data
+set of photographs that have already been labeled by human operators. Many
+problems from the fields of computer vision (image data), natural language
+processing (text data), and automatic speech recognition (audio data) fall
+into this category and cannot be easily addressed using standard supervised
+learning methods.

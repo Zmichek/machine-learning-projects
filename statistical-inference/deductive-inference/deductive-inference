@@ -1,0 +1,19 @@
+Deductive or deductive inference refers to using general rules to
+determine specific outcomes.
+
+We can better understand induction by contrasting it with deduction.
+
+Deduction is the reverse of induction. If induction is going from the
+specific to the general, deduction is going from the general to
+the specific.
+
+Induction is the inverse of deduction.
+
+Deduction is a top-down type of reasoning that seeks for all premises
+to be met before determining the conclusion, whereas induction is a
+bottom-up type of reasoning that uses available data as evidence for
+an outcome.
+
+In the context of machine learning, once we use induction to fit a
+model on a training data set, the model can be used to make predictions.
+The use of the model is a type of deduction or deductive inference.

@@ -1,0 +1,15 @@
+Inference refers to reaching an outcome or decision.
+
+In ML, fitting a model and making a prediction are both types of inference.
+
+There are different paradigms for inference that may be used as a framework
+for understanding how some machine learning algorithms work or how some
+learning problems may be approached.
+
+Some examples of approaches to learning are inductive, deductive, and
+transductive learning and inference.
+
+Contrasting Induction, Deduction, and Transduction:
+    . Induction: Learning a general model from specific examples.
+    . Deduction: Using a model to make predictions.
+    . Transduction: Using specific examples to make predictions.

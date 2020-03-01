@@ -1,0 +1,33 @@
+Unsupervised learning describes a class of problems that involves using a
+model to describe or extract relationships in data.
+
+Compared to supervised learning, unsupervised learning operates upon only
+the input data without outputs or target variables. As such, unsupervised
+learning does not have a teacher correcting the model, as in the case of
+supervised learning.
+
+In unsupervised learning, there is no instructor or teacher, and the
+algorithm must learn to make sense of the data without this guide.
+
+Two main unsupervised learning problems encountered:
+  1. Clustering: Involves finding groups in data
+  2. Density Estimation: Involves summarizing the distribution of data
+
+Two other types of unsupervised learning problems encountered:
+  3. Visualization: Involves creating plots of data
+   . An example of a visualization technique would be a scatter plot
+     matrix that creates one scatter plot of each pair of variables
+     in the data set.
+  4. Projection: Involves creating lower-dimensional representations of data
+   . An example of a projection method would be Principal component analysis
+     that involves summarizing a data set in terms of eigenvalues and
+     eigenvectors, with linear dependencies removed.
+
+The goal in such unsupervised learning problems may be to discover groups
+of similar examples within the data, where it is called Clustering, or to
+determine the distribution of data within the input space, known as Density
+Estimation, or to project the data from a high-dimensional space down to two
+or three dimensions for the purpose of visualization.
+
+Clustering and density estimation may be performed to learn about the patterns
+in the data.
