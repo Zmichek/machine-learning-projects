@@ -1,0 +1,24 @@
+Supervised learning describes a class of problems that involves using a
+model to learn a mapping between input examples and the target variable.
+
+Models are fit on training data comprised of inputs and outputs and used
+to make predictions on test sets where only the inputs are provided and
+the outputs from the model are compared to the withheld target variables
+and used to estimate the skill of the model.
+
+Two main types of supervised learning problems:
+    1. Classification: involves predicting a class label.
+    2. Regression: involves predicting a numerical label.
+
+Both classification and regression problems may have one or more input
+variables and input variables may be any data type, such as numerical
+or categorical.
+
+Algorithms are referred to as 'supervised' because they learn by making
+predictions given examples of input data, and the models are supervised
+and corrected via an algorithm to better predict the expected target
+outputs in the training dataset.
+
+"The term supervised learning originates from the view of the target
+y being provided by an instructor or teacher who shows the machine
+learning system what to do". Deep Learning, 2016
